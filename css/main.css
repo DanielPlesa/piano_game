@@ -1,11 +1,30 @@
 body {
     margin: 0;
     padding: 0;
-}
-
-#background {
-    height: 100vh;
     background-color: rgb(2, 135, 140);
-    position: relative;
+    height: 100vh;
+    align-items: center;
 }
 
+.piano-keyboard {
+  
+    display: flex;
+    
+}
+
+.white-key-C{
+    position: relative;
+    width: 50px;
+    height: 200px;
+    border: 2px black;
+    background: #fffff0;
+   
+}
+.white-key-D {
+    position: relative;
+    width: 50px;
+    height: 200px;
+    border: 2px black;
+    background: #fffff0;
+   
+}
