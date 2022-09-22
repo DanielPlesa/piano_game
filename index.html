@@ -13,22 +13,28 @@
 </head>
 
 <body>
+    <header><h1>Hover over the keys for hints.</h1> </header>
     
- 
+ <div id="Restart-screen" class ="screen" style:"display:block">
+    <button class= "button" onclick="RestartGame()"> Try again </button>
+      
+ </div>
+ <div id="background"></div>
     
     <div class="piano-keyboard">
-        <div id="c note" note="C" class="piano-white"></div>
-        <div id="cb note"note="Cb" class="piano-black"></div>
-        <div id="d note"note="D" class="piano-white"></div>
-        <div id="db note"note="Db" class="piano-black"></div>
-        <div id="e note"note="E" class="piano-white"></div>
-        <div id="f note"note="F" class="piano-white"></div>
-        <div id="fb note"note="Fb" class="piano-black"></div>
-        <div id="g note"note="G" class="piano-white"></div>
-        <div id="gb note"note="Gb" class="piano-black"></div>
-        <div id="a note"note="A" class="piano-white"></div>
-        <div id="ab note"note="Ab" class="piano-black"></div>
-        <div id="b note"note="B" class="piano-white"></div>
+        <div id="c note" note="C" class="piano-white"> <span class="hints">Z</span> </div>
+        
+        <div id="cb note"note="Cb" class="piano-black"><span class="hints">S</span> </div>
+        <div id="d note"note="D" class="piano-white"><span class="hints">X</span> </div>
+        <div id="db note"note="Db" class="piano-black"><span class="hints">D</span> </div>
+        <div id="e note"note="E" class="piano-white"><span class="hints">C</span> </div>
+        <div id="f note"note="F" class="piano-white"><span class="hints">V</span> </div>
+        <div id="fb note"note="Fb" class="piano-black"><span class="hints">G</span> </div>
+        <div id="g note"note="G" class="piano-white"><span class="hints">B</span> </div>
+        <div id="gb note"note="Gb" class="piano-black"><span class="hints">H</span> </div>
+        <div id="a note"note="A" class="piano-white"><span class="hints">N</span> </div>
+        <div id="ab note"note="Ab" class="piano-black"><span class="hints">J</span> </div>
+        <div id="b note"note="B" class="piano-white"><span class="hints">M</span> </div>
         
 
         <audio id="C" src="./24-piano-keys/key13.ogg"></audio>

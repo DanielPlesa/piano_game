@@ -3,17 +3,45 @@ body {
     padding: 0;
     background-color: rgb(2, 135, 140);
     height: 100vh;
-    align-items: center;
+    align-items: center; 
+   
+    
 }
 
+.button {
+    background-color: #fffff0;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    top: 37%;
+    left: 10%;
+}
+h1{
+    color: #fffff0;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0 0 30px;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+ 
+    
+  }
 .piano-keyboard {
-    border-radius: 15px;
+    border-radius: 5px;
     margin: 5px;
     padding: 155px;
     text-align: center;
     flex-direction: row;
-    display: flex;
-    justify-content: center;
+    display:flex;
+    justify-content:center;
+   
 
 
 }
@@ -23,15 +51,14 @@ body {
     display: inline-block;
     width: 50px;
     height: 200px;
-    border: 1px solid black;
+    border: 2px solid black;
   
     background-color: #fffff0;
     vertical-align: top;
     margin: 0px;
     top: 0px
+   
 }  
-
-     
 
    
 
@@ -46,3 +73,28 @@ body {
     
 }
 
+.tutorial {
+    position:absolute;
+    background-color: bisque;
+    
+    
+}
+
+.hints {
+    display: block;
+    width: 100%;
+    opacity: 0;
+    position: absolute;
+    bottom: 7px;
+    transition: opacity .3s ease-out;
+    font-size: 20px;
+  }
+
+  .piano-white:hover .hints {
+    opacity: 1;
+  }
+  .piano-black:hover .hints {
+    opacity: 1;
+    color:aliceblue
+  }
+  
